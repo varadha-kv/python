@@ -107,11 +107,11 @@ r = float(input("enter a number"))
 operator = input("enter a operator(+,-,*,/):")
 if(operator== '+'):
     print("result:",{v+r})
-if(operator == '-'):
+elif(operator == '-'):
     print("result:",{v-r})
-if(operator =='*'):
+elif(operator =='*'):
     print("result:",{v*r})
-if(operator == '/'):
+else:
     print("result:",{v/r})
 
 # check a number is divisible by 2 and 5
@@ -166,3 +166,46 @@ elif(12<=ticket<=60):
     print(adult)
 else:
     print(sinior)
+
+#loop - for
+
+# print number from 1 to 10
+
+for i in range(1,11):
+    print(i)
+
+#  print even number from 1 to 20
+
+i = 2
+for i in range(2,21,2):
+    print(i)
+
+# print odd number from 1 to 20
+
+i = 1
+for i in range(1,21,2):
+    print(i)
+
+ print multiplication table of a table
+
+mul = int(input("input a number"))
+for i in range(1,11):
+    print(mul*i) 
+
+# print 1 to 10 in reverse
+
+for i in range(10,0,-1):
+    print(i)
+
+print the sum of numbers 1 to n
+
+n = int(input("enter n"))
+total = 0
+for i in range(1,n+1):
+    total+=i
+    print(total)
+
+# print the square of 1 to 10
+
+for i in range(1,11):
+    print(i**2)

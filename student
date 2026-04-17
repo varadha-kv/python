@@ -1,0 +1,4 @@
+# print the list of names of students with greeting
+students = ["varadha","anamika","nandhana","drisya","mridhula","sameera","akshaya"]
+for name in students:
+    print("Hey",name,"! hope you are well.")

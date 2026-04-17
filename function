@@ -1,0 +1,30 @@
+# function
+# even odd
+
+def evenodd(x):
+    if(x%2==0):
+        print("even")
+    else:
+        print("odd")
+evenodd(4)
+
+# positive or negative
+
+num = int(input("enter a number"))
+def pos(number):
+    if(number>0):
+        print("positive")
+    else:
+        print("negative")
+pos(num)
+
+# largest number b/w two
+
+num1 = int(input("enter a number"))
+num2 = int(input("enter a number"))
+def numb(a,b):
+    if(a>b):
+        print(a,"is the largest number")
+    else:
+        print(b,"is the largest number")
+numb(num1,num2)
